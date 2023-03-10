@@ -4,7 +4,7 @@ head, body{
 }
 
 .Nav{
-  width: 100%;
+  width: 100vw;
   height: 7vh;
   line-height: 7vh;
   background-color: #f3f3f2;
@@ -109,7 +109,7 @@ head, body{
 .PageTitle{
   position: relative;
   z-index: 0;
-  width: 100%;
+  width: 100vw;
   height: auto;
   margin-top: 7vh;
   top: 0;
