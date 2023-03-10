@@ -1,0 +1,151 @@
+head, body{
+  margin: 0;
+  padding: 0;
+}
+
+.Nav{
+  width: 100%;
+  height: 7vh;
+  line-height: 7vh;
+  background-color: #f3f3f2;
+  position: fixed;
+  z-index: 3;
+  top: 0;
+  box-shadow: 1vw -5vh 10vh 0.001vh rgba(0, 0, 0, 1);
+}
+
+.Home{
+  position: absolute;
+  text-decoration: none;
+  color: #180614;
+  font-family:-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 1.5vw;
+  margin-left: 12vw;
+}
+
+.boxh{
+  position: absolute;
+  z-index: 5;
+  margin-top: 6.3vh;
+  background-color: #f3f3f2;
+  width: 10vw;
+  height: 0.7vh;
+  margin-left: 12vw;
+}
+
+.Home:hover + .boxh{
+  background-color: #00a497;
+}
+
+.Category{
+  position: absolute;
+  text-decoration: none;
+  color: #180614;
+  font-family:-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 1.5vw;
+  margin-left: 34vw;
+}
+
+.boxc{
+  position: absolute;
+  z-index: 5;
+  margin-top: 6.3vh;
+  background-color: #f3f3f2;
+  width: 10vw;
+  height: 0.7vh;
+  margin-left: 34vw;
+}
+
+.Category:hover + .boxc{
+  background-color: #00a497;
+}
+
+.Season{
+  position: absolute;
+  text-decoration: none;
+  color: #180614;
+  font-family:-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 1.5vw;
+  margin-left: 56vw;
+}
+
+.boxs{
+  position: absolute;
+  z-index: 5;
+  margin-top: 6.3vh;
+  background-color: #f3f3f2;
+  width: 10vw;
+  height: 0.7vh;
+  margin-left: 56vw;
+}
+
+.Season:hover + .boxs{
+  background-color: #00a497;
+}
+
+.RecipeForm{
+  position: absolute;
+  text-decoration: none;
+  color: #180614;
+  font-family:-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 1.5vw;
+  margin-left: 78vw;
+}
+
+.boxf{
+  position: absolute;
+  z-index: 5;
+  margin-top: 6.3vh;
+  background-color: #f3f3f2;
+  width: 10vw;
+  height: 0.7vh;
+  margin-left: 78vw;
+}
+
+.RecipeForm:hover + .boxf{
+  background-color: #00a497;
+}
+
+.PageTitle{
+  position: relative;
+  z-index: 0;
+  width: 100%;
+  height: auto;
+  margin-top: 7vh;
+  top: 0;
+}
+
+input {
+  position: absolute;
+  z-index: 2;
+  margin-top: -10vh;
+  margin-left: 75vw;
+  border: none;
+  border-radius: 50px;
+  padding: 1.5vh 2vw;
+  font-size: 16px;
+  box-shadow: 0vw 0.1vh 1vh rgba(0, 0, 0, 0.3);
+}
+
+input:focus {
+  box-shadow: 0vw 0.2vh 1vh rgba(0, 0, 0, 0.4);
+}
+
+.LatestArticles{
+  color: #180614;
+  font-family:-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+}
+
+.menu1, .menu2{
+  position: relative;
+  background-color: #e7e7eb;
+  width: 20vw;
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  margin-top: 0vh;
+  margin-left: 10vw;
+}
